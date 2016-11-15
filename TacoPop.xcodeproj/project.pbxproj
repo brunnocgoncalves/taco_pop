@@ -14,6 +14,11 @@
 		12E039A81DDA4EEE00908E38 /* TacoPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E039A71DDA4EEE00908E38 /* TacoPopTests.swift */; };
 		12E039B91DDA4FA500908E38 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E039B81DDA4FA500908E38 /* MainVC.swift */; };
 		12E039BB1DDA519600908E38 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E039BA1DDA519600908E38 /* DropShadow.swift */; };
+		12E039BD1DDAA00800908E38 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E039BC1DDAA00800908E38 /* HeaderView.swift */; };
+		12E039BF1DDAA29400908E38 /* Taco.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E039BE1DDAA29400908E38 /* Taco.swift */; };
+		12E039C11DDAA67900908E38 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E039C01DDAA67900908E38 /* DataService.swift */; };
+		12E039C41DDAA8E100908E38 /* TacoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E039C21DDAA8E100908E38 /* TacoCell.swift */; };
+		12E039C51DDAA8E100908E38 /* TacoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12E039C31DDAA8E100908E38 /* TacoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		12E039A91DDA4EEE00908E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12E039B81DDA4FA500908E38 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		12E039BA1DDA519600908E38 /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
+		12E039BC1DDAA00800908E38 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		12E039BE1DDAA29400908E38 /* Taco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taco.swift; sourceTree = "<group>"; };
+		12E039C01DDAA67900908E38 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		12E039C21DDAA8E100908E38 /* TacoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TacoCell.swift; sourceTree = "<group>"; };
+		12E039C31DDAA8E100908E38 /* TacoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TacoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +122,9 @@
 			children = (
 				12E039961DDA4EEE00908E38 /* Main.storyboard */,
 				12E0399B1DDA4EEE00908E38 /* LaunchScreen.storyboard */,
+				12E039BC1DDAA00800908E38 /* HeaderView.swift */,
+				12E039C21DDAA8E100908E38 /* TacoCell.swift */,
+				12E039C31DDAA8E100908E38 /* TacoCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -119,6 +132,8 @@
 		12E039B41DDA4F0E00908E38 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				12E039BE1DDAA29400908E38 /* Taco.swift */,
+				12E039C01DDAA67900908E38 /* DataService.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -232,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E039C51DDAA8E100908E38 /* TacoCell.xib in Resources */,
 				12E0399D1DDA4EEE00908E38 /* LaunchScreen.storyboard in Resources */,
 				12E0399A1DDA4EEE00908E38 /* Assets.xcassets in Resources */,
 				12E039981DDA4EEE00908E38 /* Main.storyboard in Resources */,
@@ -252,9 +268,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E039C41DDAA8E100908E38 /* TacoCell.swift in Sources */,
 				12E039931DDA4EED00908E38 /* AppDelegate.swift in Sources */,
 				12E039BB1DDA519600908E38 /* DropShadow.swift in Sources */,
 				12E039B91DDA4FA500908E38 /* MainVC.swift in Sources */,
+				12E039C11DDAA67900908E38 /* DataService.swift in Sources */,
+				12E039BF1DDAA29400908E38 /* Taco.swift in Sources */,
+				12E039BD1DDAA00800908E38 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
