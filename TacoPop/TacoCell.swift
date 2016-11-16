@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TacoCell: UICollectionViewCell, NibLoadbleView {
+class TacoCell: UICollectionViewCell, NibLoadbleView, Shakeable {
     
     @IBOutlet weak var tacoImage: UIImageView!
     @IBOutlet weak var tacoLabel: UILabel!

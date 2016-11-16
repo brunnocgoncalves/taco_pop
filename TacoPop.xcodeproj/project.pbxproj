@@ -11,6 +11,7 @@
 		12417FA81DDC92C400DE5FB8 /* NibLoadbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12417FA71DDC92C400DE5FB8 /* NibLoadbleView.swift */; };
 		12417FAA1DDC934A00DE5FB8 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12417FA91DDC934A00DE5FB8 /* UICollectionView+Ext.swift */; };
 		12417FAC1DDCA52400DE5FB8 /* MutableCollection+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12417FAB1DDCA52400DE5FB8 /* MutableCollection+Ext.swift */; };
+		12417FAE1DDCA7BD00DE5FB8 /* Shakeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12417FAD1DDCA7BD00DE5FB8 /* Shakeable.swift */; };
 		12E039931DDA4EED00908E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E039921DDA4EED00908E38 /* AppDelegate.swift */; };
 		12E039981DDA4EEE00908E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E039961DDA4EEE00908E38 /* Main.storyboard */; };
 		12E0399A1DDA4EEE00908E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12E039991DDA4EEE00908E38 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		12417FA71DDC92C400DE5FB8 /* NibLoadbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadbleView.swift; sourceTree = "<group>"; };
 		12417FA91DDC934A00DE5FB8 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
 		12417FAB1DDCA52400DE5FB8 /* MutableCollection+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MutableCollection+Ext.swift"; sourceTree = "<group>"; };
+		12417FAD1DDCA7BD00DE5FB8 /* Shakeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shakeable.swift; sourceTree = "<group>"; };
 		12E0398F1DDA4EED00908E38 /* TacoPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12E039921DDA4EED00908E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12E039971DDA4EEE00908E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				12E039BA1DDA519600908E38 /* DropShadow.swift */,
 				12417FA51DDC91E000DE5FB8 /* ReusableView.swift */,
 				12417FA71DDC92C400DE5FB8 /* NibLoadbleView.swift */,
+				12417FAD1DDCA7BD00DE5FB8 /* Shakeable.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				12E039B91DDA4FA500908E38 /* MainVC.swift in Sources */,
 				12E039C11DDAA67900908E38 /* DataService.swift in Sources */,
 				12E039BF1DDAA29400908E38 /* Taco.swift in Sources */,
+				12417FAE1DDCA7BD00DE5FB8 /* Shakeable.swift in Sources */,
 				12E039BD1DDAA00800908E38 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
