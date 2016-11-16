@@ -18,12 +18,12 @@
                 <rect key="frame" x="0.0" y="0.0" width="210" height="203"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="beef" translatesAutoresizingMaskIntoConstraints="NO" id="Q65-M6-cxD">
-                        <rect key="frame" x="0.0" y="0.0" width="210" height="185.5"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Beef" translatesAutoresizingMaskIntoConstraints="NO" id="Q65-M6-cxD">
+                        <rect key="frame" x="0.0" y="0.0" width="210" height="180"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bricket Taco" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOD-Ef-NyR">
-                        <rect key="frame" x="0.0" y="187.5" width="210" height="13.5"/>
-                        <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="12"/>
+                        <rect key="frame" x="0.0" y="182" width="210" height="19"/>
+                        <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -39,10 +39,14 @@
                 <constraint firstItem="VOD-Ef-NyR" firstAttribute="top" secondItem="Q65-M6-cxD" secondAttribute="bottom" constant="2" id="rbw-aY-qXG"/>
             </constraints>
             <size key="customSize" width="95" height="107"/>
+            <connections>
+                <outlet property="tacoImage" destination="Q65-M6-cxD" id="yLI-mf-zkC"/>
+                <outlet property="tacoLabel" destination="VOD-Ef-NyR" id="fkB-3Q-gd9"/>
+            </connections>
             <point key="canvasLocation" x="56" y="37.5"/>
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="beef" width="385" height="262"/>
+        <image name="Beef" width="960" height="640"/>
     </resources>
 </document>

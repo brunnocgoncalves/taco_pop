@@ -9,10 +9,19 @@
 import UIKit
 
 class TacoCell: UICollectionViewCell {
+    
+    @IBOutlet weak var tacoImage: UIImageView!
+    @IBOutlet weak var tacoLabel: UILabel!
+    
+    var taco: Taco!
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    func configureCell(taco: Taco){
+        
+        self.taco = taco
+        
+        tacoImage.image = UIImage(named: taco.proteinId.rawValue)
+        tacoLabel.text = taco.productName
+        
     }
 
 }

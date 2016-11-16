@@ -11,6 +11,9 @@ import UIKit
 class MainVC: UIViewController {
     
     @IBOutlet weak var headerView: HeaderView!
+    @IBOutlet weak var collectionView: UICollectionView!
+    
+    var ds: DataService = DataService.instance
 
     override func viewDidLoad() {
         super.viewDidLoad()
