@@ -24,6 +24,7 @@ class DataService{
     
     func loadTacoData(){
         
+        tacoArray.append(Taco(id: 1, productName: "Taco", shellId: 1, proteinId: 1, condimentId: 1))
         
         delegate?.tacoDataLoaded()
     }
